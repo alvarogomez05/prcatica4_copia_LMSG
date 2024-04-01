@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosotros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+
+<body class="body">
+    <header class="header1">
+        <a href="" class="header1__txt">Descárgate aquí nuestra App.</a>
+    </header>
+
+    <header class="header2">
+        <a href=""><img src="../assets/img/index/head1.png" alt="rayas de un desplegable" class=" header2__item"></a>
+        <a href="../index.html"><img src="../assets/img/logo.png" alt="logo de el corte ingles" class=" header2__item"></a>
+        <input type="search" class="header2__search header2__item" placeholder="Buscar">
+        <a href="" class="header2__link header2__item">Consulta de pedidos</a>
+        <a href="" class="header2__link header2__item">Nuestra tarjeta</a>
+        <a href="" class="header2__link header2__item">Nuestras tiendas</a>
+        <a href="" class="header2__link header2__item">Ayuda</a>
+        <div class="header2_box header2__item">
+            <i class="fa-regular fa-user"></i>
+            <a href="" class="header2__link">Iniciar sesíon</a>
+        </div>
+        <div class="header2__box header2__item">
+            <p class="box__cesta">0</p>
+            <a href="" class="cesta"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    </header>
+
+    <section class="caja"></section>
+
+
+    <main class="container">
+
+        <h1 class="h1">TRABAJA CON NOSOTROS</h1>
+
+        <form action="direccion.php" class="formulario">
+
+            <p class="formulario__title">Datos personales</p>
+            <div class="cajas">
+                <section class="caja">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Nombre" class="input">
+                </section>
+                <section class="caja">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required placeholder="Apellidos" class="input">
+                </section>
+                <section class="caja">
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" required placeholder="DNI" class="input">
+                </section>
+                <section class="caja">
+                    <label for="nss">Número de Seguridad Social:</label>
+                    <input type="text" id="nss" name="nss" required placeholder="Número de Seguridad Social" class="input">
+                </section>
+                <section class="caja">
+                    <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required
+                        placeholder="Fecha de Nacimiento" class="input">
+                </section>
+            </div>
+
+            <p class="formulario__title">Contacto</p>
+            <div class="cajas">
+                <section class="caja">
+                    <label for="telefono">Teléfono 1:</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="Teléfono 1" class="input">
+                </section>
+                <section class="caja">
+                    <label for="telefono">Teléfono 2:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono 2" class="input">
+                </section>
+                <section class="caja">
+                    <label for="telefono">Teléfono fijo:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono fijo" class="input">
+                </section>
+                <section class="caja">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required placeholder="Correo electrónico" class="input">
+                </section>
+            </div>
+
+            <p class="formulario__title">Más sobre ti...</p>
+            <div class="cajas cajas2">
+                <section class="caja">
+                    <label for="experiencia">Experiencia:</label>
+                    <textarea id="experiencia" name="experiencia" required placeholder="Experiencia"
+                        class="txtarea input"></textarea>
+                </section>
+                <section class="caja">
+                    <label for="observaciones">Observaciones:</label>
+                    <textarea id="observaciones" name="observaciones" placeholder="Observaciones"
+                        class="txtarea input"></textarea>
+                </section>
+            </div>
+
+            <p class="formulario__title">Dirección</p>
+            <div class="cajas">
+                <section class="caja">
+                    <label for="comunidad_autonoma">Comunidad Autónoma:</label>
+                    <select id="comunidad_autonoma" name="comunidad_autonoma" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="Andalucía">Andalucía</option>
+                        <option value="Aragón">Aragón</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Baleares">Baleares</option>
+                        <option value="Canarias">Canarias</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castilla-La Mancha">Castilla-La Mancha</option>
+                        <option value="Castilla y León">Castilla y León</option>
+                        <option value="Cataluña">Cataluña</option>
+                        <option value="Ceuta">Ceuta</option>
+                        <option value="Extremadura">Extremadura</option>
+                        <option value="Galicia">Galicia</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Melilla">Melilla</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="País Vasco">País Vasco</option>
+                        <option value="Valencia">Valencia</option>
+                    </select>
+                </section>
+
+
+                <section class="caja">
+                    <label for="provincia">Provincia:</label>
+                    <select id="provincia" name="provincia" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="Álava">Álava</option>
+                        <option value="Albacete">Albacete</option>
+                        <option value="Alicante">Alicante</option>
+                        <option value="Almería">Almería</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Ávila">Ávila</option>
+                        <option value="Badajoz">Badajoz</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Burgos">Burgos</option>
+                        <option value="Cáceres">Cáceres</option>
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castellón">Castellón</option>
+                        <option value="Ciudad Real">Ciudad Real</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Cuenca">Cuenca</option>
+                        <option value="Gerona">Gerona</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Guadalajara">Guadalajara</option>
+                        <option value="Guipúzcoa">Guipúzcoa</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Huesca">Huesca</option>
+                        <option value="Islas Baleares">Islas Baleares</option>
+                        <option value="Jaén">Jaén</option>
+                        <option value="La Coruña">La Coruña</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Las Palmas">Las Palmas</option>
+                        <option value="León">León</option>
+                        <option value="Lérida">Lérida</option>
+                        <option value="Lugo">Lugo</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Málaga">Málaga</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="Orense">Orense</option>
+                        <option value="Palencia">Palencia</option>
+                        <option value="Pontevedra">Pontevedra</option>
+                        <option value="Salamanca">Salamanca</option>
+                        <option value="Segovia">Segovia</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Soria">Soria</option>
+                        <option value="Tarragona">Tarragona</option>
+                        <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
+                        <option value="Teruel">Teruel</option>
+                        <option value="Toledo">Toledo</option>
+                        <option value="Valencia">Valencia</option>
+                        <option value="Valladolid">Valladolid</option>
+                        <option value="Vizcaya">Vizcaya</option>
+                        <option value="Zamora">Zamora</option>
+                        <option value="Zaragoza">Zaragoza</option>
+                    </select>
+                </section>
+
+                <section class="caja">
+                    <label for="codigo_postal">Código Postal:</label>
+                    <input type="text" id="codigo_postal" name="codigo_postal" required placeholder="Código Postal" class="input">
+                </section>
+
+                <section class="caja">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" required placeholder="Dirección" class="input">
+                </section>
+
+            </div>
+
+            <div class="cajas">
+                <section class="caja">
+                    <label for="foto">Foto tamaño carnet:</label>
+                    <input type="file" id="foto" name="foto" accept="image/*" required>
+                </section>
+
+                <section class="caja">
+                    <label for="curriculum">Currículum Vitae:</label>
+                    <input type="file" id="curriculum" name="curriculum" accept=".pdf,.doc,.docx" required>
+                </section>
+            </div>
+
+            <section class="cajas cajas2">
+                <input type="checkbox" id="terminos" name="terminos" required class="checkbox">
+                <label for="terminos">He leído y acepto los <a href="terminos_privacidad.html" class="terms__link">términos
+                        de uso y privacidad de datos</a>.</label>
+                <input type="submit" value="Enviar" class="enviar">
+            </section>
+        </form>
+
+        <h2 class="h2">¿Que pasa despues?</h2>
+
+        <p class="info">
+            Estamos emocionados de que estés considerando formar parte de nuestro equipo. En nuestro proceso de selección, nos esforzamos por encontrar personas apasionadas y comprometidas que deseen crecer y contribuir a nuestro éxito conjunto.
+        </p>
+
+        <p class="info">
+            Nuestro proceso de selección consta de varias etapas diseñadas para conocerte mejor y para que tú nos conozcas a nosotros. Comenzaremos revisando tu solicitud y tu currículum. Si tu perfil coincide con lo que estamos buscando, te contactaremos para una entrevista inicial. Durante esta entrevista, tendremos la oportunidad de discutir tus habilidades, experiencia y expectativas. Aquellos candidatos que avancen en el proceso podrán participar en evaluaciones adicionales, como pruebas de habilidades o entrevistas con miembros del equipo.
+        </p>
+
+        <h2 class="h2">Horarios de Trabajo Disponibles:</h2>
+
+        <p class="info">Ofrecemos diferentes opciones de horarios de trabajo para adaptarnos a las necesidades de nuestros empleados:</p>
+
+        <p class="info">Jornada Completa de Mañana o Tarde: Esta opción es ideal para aquellos que prefieren trabajar durante las mañanas o las tardes. La jornada completa te permite sumergirte en tu trabajo y tener tiempo para tus actividades fuera del horario laboral.</p>
+        <p class="info">Jornada Partida: Si prefieres tener un descanso durante el día, la jornada partida puede ser la opción adecuada para ti. Trabajarás algunas horas por la mañana, tendrás un descanso para almorzar y luego continuarás por la tarde.</p>
+        <p class="info">Media Jornada Rotativa: Para aquellos que necesitan flexibilidad en sus horarios, ofrecemos la opción de media jornada rotativa. Esto te permite trabajar medio día en días alternos o en horarios variables, lo que te brinda la libertad de equilibrar el trabajo con otros compromisos.</p>
+
+        <h2 class="h2">Disponibilidad</h2>
+
+        <section class="disponibilidad">
+
+            <article class="disponibilidad__article">
+                <p class="info">
+                    En El Corte Inglés, nos enorgullece ofrecer un entorno laboral dinámico y estimulante donde la excelencia es la norma y la satisfacción del cliente es nuestra máxima prioridad. Si estás buscando una oportunidad emocionante y gratificante, ¡has venido al lugar correcto!
+                </p>
+                <p class="info">
+                    En El Corte Inglés, el compromiso con la excelencia no conoce límites. Es por eso que trabajamos incansablemente los 365 días del año, sin excepción. Sabemos que cada día es una oportunidad para superarnos y brindar el mejor servicio a nuestros clientes.
+                </p>
+                <p class="info">
+                    Reconocemos el sacrificio y la dedicación de nuestros empleados, especialmente en días especiales como los fines de semana y los festivos. Es por eso que ofrecemos un plus significativo en el salario para aquellos que trabajan en estas fechas. Valoramos tu compromiso y queremos recompensarte adecuadamente por tu arduo trabajo.
+                </p>
+            </article>
+
+            <article>
+                <!-- table to make a calendar  -->
+                <table>
+
+                    <tr>
+                        <th colspan="6" class="mes">FEBRERO</th>
+                        <th colspan="1">2024</th>
+                    </tr>
+
+                    <tr>
+                        <td class="hueco">Lunes</td>
+                        <td class="hueco">Martes</td>
+                        <td class="hueco">Miercoles</td>
+                        <td class="hueco">Jueves</td>
+                        <td class="hueco">Viernes</td>
+                        <td class="fines_de_semana hueco"> Sabado</td>
+                        <td class="fines_de_semana hueco">Domingo</td>
+                    </tr>
+
+                    <tr class="numeros">
+                        <td class="hueco"></td>
+                        <td class="hueco"></td>
+                        <td class="hueco"></td>
+                        <td class="hueco">1</td>
+                        <td class="hueco">2</td>
+                        <td class="fines_de_semana hueco">3</td>
+                        <td class="fines_de_semana hueco">4</td>
+                    </tr>
+                    <tr class="numeros">
+                        <td class="hueco">5</td>
+                        <td class="hueco">6</td>
+                        <td class="hueco">7</td>
+                        <td class="hueco">8</td>
+                        <td class="hueco">9</td>
+                        <td class="fines_de_semana hueco">10</td>
+                        <td class="fines_de_semana hueco">11</td>
+                    </tr>
+                    <tr class="numeros">
+                        <td class="hueco">12</td>
+                        <td class="hueco">13</td>
+                        <td class="hueco">14</td>
+                        <td class="hueco">15</td>
+                        <td class="hueco">16</td>
+                        <td class="fines_de_semana hueco">17</td>
+                        <td class="fines_de_semana hueco">18</td>
+                    </tr>
+                    <tr class="numeros">
+                        <td class="hueco">19</td>
+                        <td class="hueco">20</td>
+                        <td class="hueco">21</td>
+                        <td class="hueco">22</td>
+                        <td class="hueco">23</td>
+                        <td class="fines_de_semana hueco">24</td>
+                        <td class="fines_de_semana hueco">25</td>
+                    </tr>
+                    <tr class="numeros">
+                        <td class="hueco">26</td>
+                        <td class="hueco">27</td>
+                        <td class="hueco">28</td>
+                        <td class="hueco">29</td>
+                        <td class="hueco"></td>
+                        <td class="hueco"></td>
+                        <td class="vacio hueco"></td>
+                    </tr>
+                </table>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="footer__header">
+            <article class="footer__header__box">
+                <a href="" class="footer__link">
+                    <p class="footer__txt1">ENTREGA EN EL DIA</p>
+                </a>
+                <a href="" class="footer__link">
+                    <div class="footer__header__subox">
+                        <p class="footer__txt2">CLICK</p>
+                        <p class="footer__txt1">&CAR</p>
+                    </div>
+                </a>
+                <a href="" class="footer__link">
+                    <p class="footer__txt1">RECOGIDA EN TIENDA</p>
+                </a>
+
+            </article>
+            <article class="footer__header__box2">
+
+                <a href="" class="footer__link">
+                    <div class="footer__header__subox">
+                        <p class="footer__txt2"><i class="fa-solid fa-play"></i></p>
+                        <p class="footer__txt1">El Corte Inglés Plus</p>
+                    </div>
+                </a>
+                <a href="" class="footer__link">
+                    <div class="footer__header__subox">
+                        <p class="footer__txt2"><i class="fa-solid fa-play"></i></p>
+                        <p class="footer__txt1">Nuestra tarjeta</p>
+                    </div>
+                </a>
+                <a href="" class="footer__link">
+                    <div class="footer__header__subox">
+                        <p class="footer__txt2"><i class="fa-solid fa-headphones"></i>
+                        </p>
+                        <p class="footer__txt1">Atención al cliente</p>
+                    </div>
+                </a>
+                <a href="" class="footer__link">
+                    <div class="footer__header__subox">
+                        <p class="footer__txt2"><i class="fa-solid fa-question"></i>
+                        </p>
+                        <p class="footer__txt1">Ayuda</p>
+                    </div>
+                </a>
+            </article>
+        </section>
+
+        <section class="footer__2">
+
+            <article class="footer__2box">
+                <p class="footer__title">COMPRA ONLINE</p>
+                <ul class="footer__list">
+                    <li class="lista__item"><a class="footer__link2" href="">Mi cuenta</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Mis compras</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Formas de pago</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Gastos de envío</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Devoluciones</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Ventajas y servicios</a></li>
+                </ul>
+            </article>
+
+            <article class="footer__2box">
+                <p class="footer__title">SÍGUENOS</p>
+                <ul class="footer__list">
+                    <li class="lista__item"><a class="footer__link2" href=""> <i
+                                class="fa-brands fa-instagram rrss1"></i>
+                            Instagram</a></li>
+                    <li class="lista__item"><a class="footer__link2" href=""><i
+                                class="fa-brands fa-tiktok rrss2"></i>Tik
+                            Tok</a>
+                    </li>
+                    <li class="lista__item"><a class="footer__link2" href=""><i
+                                class="fa-brands fa-pinterest rrss3"></i>Pinterest</a></li>
+                    <li class="lista__item"><a class="footer__link2" href=""><i
+                                class="fa-brands fa-square-x-twitter rrss4"></i>Twitter</a>
+                    </li>
+                    <li class="lista__item"><a class="footer__link2" href=""><i
+                                class="fa-brands fa-square-facebook rrss5"></i>Facebook</a></li>
+                    <li class="lista__item"><a class="footer__link2" href=""> <i class="fa-brands fa-youtube rrss6"></i>
+                            Youtube </a></li>
+                </ul>
+            </article>
+
+            <article class="footer__2box">
+                <p class="footer__title">TIENDAS</p>
+                <ul class="footer__list">
+                    <li class="lista__item"><a class="footer__link2" href="">Busca una tienda</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Horarios y dias de apertura</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Gourmet Experience</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Cafetería y restaurantes</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Eventos</a></li>
+                </ul>
+            </article>
+
+            <article class="footer__2box">
+                <p class="footer__title">CONTENIDOS</p>
+                <ul class="footer__list">
+                    <li class="lista__item"><a class="footer__link2" href="">Catálogos digitales</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Aptc Supermercado</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Editorial</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Ambito Cultural</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Tarjeta regalo</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Promoción Repsol</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Pitiflú</a></li>
+                </ul>
+            </article>
+
+            <article class="footer__2box">
+                <p class="footer__title">GRUPO EL CORTE INGLÉS</p>
+                <ul class="footer__list">
+                    <li class="lista__item"><a class="footer__link2" href="">Información corporativa</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Trabajar en EL Corte Inglés</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Programa de afiliados</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Sostenibilidad</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Entidades</a></li>
+                </ul>
+            </article>
+        </section>
+    </footer>
+
+    <footer class="footer fondo">
+        <section class="footer__3">
+
+            <article class="footer__2box">
+                <p class="footer__title">Teléfono de pedidos</p>
+                <a href="" class="footer__link2">Tecnología, hogar, deportes, belleza, ocio... <b>900 533 433</b></a>
+                <a href="" class="footer__link2">Supermercado: <b>900 353 353</b></a>
+            </article>
+
+            <article class="footer__2box">
+                <p class="footer__title">Teléfono de atención al cliente</p>
+                <a href="" class="footer__link2 text2">Tecnología, hogar, deportes, belleza, ocio... <b>900 373
+                        900</b></a>
+                <a href="" class="footer__link2 text2">Supermercado: <b>900 494 656</b></a>
+            </article>
+
+        </section>
+
+        <section class="footer__3">
+
+            <article class="footer__2box">
+                <p class="footer__title">Otras webs del grupo El Corte Inglés</p>
+                <div class="otras__box">
+                    <ul class="footer__list">
+                        <li class="lista__item"><a class="footer__link2" href="">Supermercado</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Hipercor</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Sanchez Romeri</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Primeriti</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Venta de entradas</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Sfera</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Supercor</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="lista__item"><a class="footer__link2" href="">Bodamás</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Viajes El Corte Inglés</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Bricor</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">La tienda en casa</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Sportown</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Luxe</a></li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="lista__item"><a class="footer__link2" href="">El Corte Inglés para Empresas</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">Financiera El Corte Inglés</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">El Corte Inglés Portugal</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">El Corte Inglés Internacional</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">SICOR Alarmas - Seguridad 3247</a></li>
+                        <li class="lista__item"><a class="footer__link2" href="">SICOR teleasistencia El Corte
+                                Inglés</a></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="footer__2box">
+                <p class="footer__title">Otros enlaces</p>
+                <ul class="footer__list">
+                    <li class="lista__item"><a class="footer__link2" href="">Óptica 2000</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">Motortown</a></li>
+                    <li class="lista__item"><a class="footer__link2" href="">El Corte Inglés Seguros Agencia
+                            Vinculada</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="descarga">
+            <a href="" class="footer__link2">
+                <div class="descarga__box">
+                    <i class="fa-brands fa-apple icon"></i>
+                    <p class="footer__title">Apple Store</p>
+                </div>
+            </a>
+            <a href="" class="footer__link2">
+                <div class="descarga__box">
+                    <i class="fa-brands fa-google-play icon"></i>
+                    <p class="footer__title">Google Play</p>
+                </div>
+            </a>
+        </section>
+
+    </footer>
+
+    <footer class="footer fondo__2">
+
+        <section class="footer__espacio">
+            <article class="box">
+                <p class="footer__txt2"><i class="fa-solid fa-play"></i></p>
+                <small>© 1940-2024 El Corte Inglés S.A. Todos los derechos reservados.</small>
+            </article>
+            <article class="box">
+                <a href="" class="footer__link3">Condiciones de uso</a>
+                <a href="" class="footer__link3">Política de privacidad</a>
+                <a href="" class="footer__link3">Política de Coockies</a>
+                <a href="" class="footer__link3"><img src="../assets/img/confianza.png" alt=""></a>
+            </article>
+        </section>
+    </footer>
+
+</body>
+
+</html>
